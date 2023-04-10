@@ -28,9 +28,7 @@ class Updater extends events_1.default {
         super();
         this.argv = argv;
         this.config = argv.config;
-        this.octokit = new octokit_1.Octokit({
-            auth: "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"
-        });
+        this.octokit = new octokit_1.Octokit({});
     }
     findNodePath() {
         var dirpaths = [
